@@ -1,0 +1,41 @@
+div.personal-info-preview-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.name {
+    font-size: clamp(2rem, 6vw, 2.5rem);
+    font-weight: 500;
+}
+
+div.personal-info-preview-container>div {
+    text-align: center;
+    width: 100%;
+}
+
+div.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    padding: 0 5px;
+    width: max-content;
+}
+
+ul.contacts-and-links {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.contacts-and-links>li:not(li:last-of-type) {
+    border-right: 1px solid black;
+}

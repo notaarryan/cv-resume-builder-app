@@ -5,11 +5,9 @@ export default function PersonalInfoPreview({ personalInfo }) {
     <div className="personal-info-preview-container">
       <div className="name">{personalInfo.name}</div>
       <div className="contact-info">
-        <ul>
+        <ul className="contacts-and-links">
           <li key="phone-number">{personalInfo.phoneNumber}</li>
           <li key="email">{personalInfo.email}</li>
-        </ul>
-        <ul className="links">
           {personalInfo.links.map((linkObj) => {
             return (
               <li key={linkObj.id}>
