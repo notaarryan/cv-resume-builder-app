@@ -3,6 +3,8 @@ import "../styles/App.css";
 import PersonalInfo from "../data/personal";
 import PersonalInfoBuilder from "./Builder/PersonalInfoBuilder";
 import PersonalInfoPreview from "./Preview/PersonalInfoPreview";
+import EducationInfoBuilder from "./Builder/EducationInfoBuilder";
+import EducationalInfoPreview from "./Preview/EducationalInfoPreview";
 
 export default function App() {
   const [personalInfo, setPersonalInfo] = useState(PersonalInfo);
@@ -13,9 +15,14 @@ export default function App() {
           personalInfo={personalInfo}
           setPersonalInfo={setPersonalInfo}
         />
+        <EducationInfoBuilder
+          personalInfo={personalInfo}
+          setPersonalInfo={setPersonalInfo}
+        />
       </div>
       <div className="resume-preview">
         <PersonalInfoPreview personalInfo={personalInfo} />
+        <EducationalInfoPreview personalInfo={personalInfo} />
       </div>
     </div>
   );

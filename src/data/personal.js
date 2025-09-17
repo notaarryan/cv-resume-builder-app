@@ -7,15 +7,18 @@ const PersonalInfo = {
     { id: "github", key: "https://github.com" },
   ],
   id: crypto.randomUUID(),
-  education: {
-    university: {
-      name: "University of Windsor",
-      location: "Windsor, ON",
-      degreeStart: "Sept 2024",
-      degreeEnd: "Sept 2028",
-      course: "Bachelors of Science in Computer Science",
+  education: [
+    {
+      id: "University",
+      value: {
+        name: "University of Windsor",
+        location: "Windsor, ON",
+        degreeStart: "2024-09-01",
+        degreeEnd: "2028-09-01",
+        course: "Bachelors of Science in Computer Science",
+      },
     },
-  },
+  ],
 };
 
 export default PersonalInfo;

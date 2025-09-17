@@ -72,7 +72,7 @@ export default function PersonalInfoBuilder({ personalInfo, setPersonalInfo }) {
           <div>
             {links.map((link, index) => {
               return (
-                <div id={index}>
+                <div id={index} key={index}>
                   <label htmlFor={`id-${index}`}>
                     Select which link you wish to add:
                   </label>
