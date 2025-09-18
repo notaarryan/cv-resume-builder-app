@@ -1,9 +1,4 @@
-input {
-    border: 1px black solid;
-    border-radius: 5px;
-}
-
-.personal-info-builder-container {
+.project-info-builder-container {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -12,34 +7,33 @@ input {
     width: 100%;
 }
 
-.personal-info-builder-container form {
+.project-info-builder-container form {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 100%;
 }
 
-.personal-info-builder-container form div {
+.project-info-builder-container form div {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 100%;
 }
 
-.personal-info-builder-container label {
+.project-info-builder-container label {
     font-weight: 500;
     margin-right: 10px;
 }
 
-.personal-info-builder-container input,
-.personal-info-builder-container select {
+.project-info-builder-container input {
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
     width: auto;
 }
 
-.personal-info-builder-container button {
+.project-info-builder-container button {
     margin-top: 10px;
     padding: 5px 10px;
     border: 1px solid black;
@@ -48,6 +42,6 @@ input {
     cursor: pointer;
 }
 
-.personal-info-builder-container button:hover {
+.project-info-builder-container button:hover {
     background-color: #f0f0f0;
 }

@@ -19,6 +19,21 @@ const PersonalInfo = {
       },
     },
   ],
+  projects: [
+    {
+      id: "Tic-tac-toe",
+      name: "Tic-tac-toe",
+      link: "https://github.com",
+      langs: ["JavaScript"],
+      knowledgeGained: [
+        "Improved problem-solving skills",
+        "Learned game logic implementation",
+        "Practiced DOM manipulation",
+        "Enhanced JavaScript fundamentals",
+        "Strengthened debugging and testing skills",
+      ],
+    },
+  ],
 };
 
 export default PersonalInfo;

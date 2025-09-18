@@ -1,0 +1,48 @@
+.education-info-builder-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.education-info-builder-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.education-info-builder-container form div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.education-info-builder-container label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.education-info-builder-container input,
+.education-info-builder-container select {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: auto;
+}
+
+.education-info-builder-container button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.education-info-builder-container button:hover {
+    background-color: #f0f0f0;
+}

@@ -13,9 +13,9 @@ export default function EducationalInfoPreview({ personalInfo }) {
     <div className="education-info-preview-container">
       <div className="main-title">Education</div>
 
-      {educationInfo.map((education) => {
+      {educationInfo.map((education, index) => {
         return (
-          <div className="content">
+          <div className="content" key={`${education.value.name}${index}`}>
             <div className="name">{education.value.name}</div>
             <div className="location">{education.value.location}</div>
             <div className="course">{education.value.course}</div>
