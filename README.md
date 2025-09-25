@@ -14,7 +14,7 @@ A simple React-based CV/Resume builder that lets you enter your personal details
 - **CSS** for styling (⚠️ basic — I didn’t spend much time on styling).  
 
 ## Live Demo  
-👉 [cv-resume-builder (Vercel)](https://cv-resume-builder-3crs4ho6h-aryan-parmars-projects.vercel.app)  
+👉 [cv-resume-builder (Vercel)](https://cv-resume-builder-app.vercel.app)  
 
 ## Getting Started  
 
